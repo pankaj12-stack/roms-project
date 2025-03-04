@@ -19,7 +19,7 @@ function App() {
               <span className="text-xl font-bold">ROMs Haven</span>
             </div>
             <div className="flex items-center space-x-6">
-              <a href="/" className="flex items-center space-x-2 hover:text-purple-400 transition-colors">
+              <a href="/roms" className="flex items-center space-x-2 hover:text-purple-400 transition-colors">
                 <Grid className="w-5 h-5" />
                 <span>ROMs</span>
               </a>
@@ -51,13 +51,17 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <Routes>
-        <Route path="/" element={<GamesList />} />
-        <Route path="/game/:id" element={<GameDetails />} />
-        <Route path="/emulators" element={<ConsolesList />} />
-        <Route path="/emulators/:slug" element={<EmulatorsList />} />
-        <Route path="/emulator/:slug" element={<EmulatorDetails />} />
-      </Routes>
+      
+        <Routes>
+          <Route path="/" element={<GamesList />} />
+          <Route path="/roms" element={<ConsolesList type="roms" />} />
+          <Route path="/emulators" element={<ConsolesList type="emulators" />} />
+          <Route path="/game/:id" element={<GameDetails />} />
+          <Route path="/emulators/:slug" element={<EmulatorsList />} />
+          <Route path="/emulator/:slug" element={<EmulatorDetails />} />
+          <Route path="/roms/:slug" element={<GamesList />} />
+        </Routes>
+     
 
       {/* Footer */}
       <footer className="bg-gray-800 border-t border-gray-700 mt-12">

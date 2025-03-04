@@ -94,7 +94,7 @@ function EmulatorDetails() {
   ];
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="max-w-[1400px] mx-auto px-4 py-8">
       {/* Breadcrumb */}
       <div className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
         <Link to="/emulators" className="hover:text-purple-400 transition-colors flex items-center">
@@ -104,15 +104,17 @@ function EmulatorDetails() {
       </div>
 
       {/* Game Header */}
-      <div className="flex flex-col lg:flex-row gap-8 mb-8">
+      <div className="flex flex-col lg:flex-row gap-8 mb-12">
         {/* Image Container */}
-        <div className="lg:w-[400px] flex-shrink-0">
-          <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gray-800/50 backdrop-blur-sm">
-            <img
-              src={emulator.logo}
-              alt={emulator.name}
-              className="w-full h-full object-contain p-8"
-            />
+        <div className="w-full lg:w-1/3 flex-shrink-0">
+          <div className="relative w-[min(280px,70vw)] sm:w-[min(320px,70vw)] md:w-[min(360px,70vw)] lg:w-full aspect-[3/4] mx-auto lg:mx-0">
+            <div className="absolute inset-0 w-full h-full">
+              <img
+                src={emulator.logo}
+                alt={emulator.name}
+                className="rounded-2xl w-full h-full object-contain p-8 bg-gray-800/50 backdrop-blur-sm"
+              />
+            </div>
           </div>
         </div>
 
@@ -121,80 +123,62 @@ function EmulatorDetails() {
           <h1 className="text-4xl font-bold mb-6 text-white">{emulator.name}</h1>
           
           {/* Info Grid and Download Section */}
-          <div className="flex flex-col lg:flex-row gap-8">
+          <div className="space-y-8 lg:space-y-0 lg:flex lg:flex-row lg:gap-8 mb-8">
             {/* Info Grid */}
-            <div className="lg:w-3/5">
-              <div className="grid grid-cols-3 gap-4">
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-yellow-400 mb-2">
-                    <Star className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.rating}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">Rating</span>
+            <div className="grid grid-cols-2 gap-4 lg:w-3/5">
+              <div className="bg-gray-800/50 backdrop-blur-sm p-4 lg:p-5 rounded-lg">
+                <div className="flex items-center space-x-2 text-yellow-400 mb-2">
+                  <Star className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
+                  <span className="text-base lg:text-lg font-semibold">{emulator.rating}</span>
                 </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Rating</span>
+              </div>
 
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-blue-400 mb-2">
-                    <Monitor className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.console}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">Console</span>
+              <div className="bg-gray-800/50 backdrop-blur-sm p-4 lg:p-5 rounded-lg">
+                <div className="flex items-center space-x-2 text-blue-400 mb-2">
+                  <Monitor className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
+                  <span className="text-base lg:text-lg font-semibold">{emulator.console}</span>
                 </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Console</span>
+              </div>
 
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-purple-400 mb-2">
-                    <Globe className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.os}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">OS</span>
+              <div className="bg-gray-800/50 backdrop-blur-sm p-4 lg:p-5 rounded-lg">
+                <div className="flex items-center space-x-2 text-purple-400 mb-2">
+                  <Globe className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
+                  <span className="text-base lg:text-lg font-semibold">{emulator.os}</span>
                 </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">OS</span>
+              </div>
 
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-emerald-400 mb-2">
-                    <Eye className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.views}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">Views</span>
+              <div className="bg-gray-800/50 backdrop-blur-sm p-4 lg:p-5 rounded-lg">
+                <div className="flex items-center space-x-2 text-pink-400 mb-2">
+                  <HardDrive className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
+                  <span className="text-base lg:text-lg font-semibold">{emulator.fileSize}</span>
                 </div>
-
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-orange-400 mb-2">
-                    <Download className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.downloads}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">Downloads</span>
-                </div>
-
-                <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-lg">
-                  <div className="flex items-center space-x-2 text-pink-400 mb-2">
-                    <HardDrive className="w-5 h-5" />
-                    <span className="text-lg font-semibold">{emulator.fileSize}</span>
-                  </div>
-                  <span className="text-sm text-gray-400">File size</span>
-                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">File size</span>
               </div>
             </div>
 
             {/* Download Section */}
-            <div className="lg:w-2/5">
+            <div className="w-full lg:w-2/5">
               <DownloadSection 
                 title="Download Emulator" 
                 onDownload={handleDownload}
               />
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* About Section */}
-      <div className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm mb-8">
-        <h2 className="text-xl font-semibold mb-4 flex items-center text-white">
-          <Info className="w-5 h-5 mr-2 text-purple-400" />
-          About This Emulator
-        </h2>
-        <p className="text-gray-300 leading-relaxed">
-          {emulator.description}
-        </p>
+          {/* About Section */}
+          <div className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm mb-8">
+            <h2 className="text-xl font-semibold mb-4 flex items-center text-white">
+              <Info className="w-5 h-5 mr-2 text-purple-400" />
+              About This Emulator
+            </h2>
+            <p className="text-gray-300 leading-relaxed">
+              {emulator.description}
+            </p>
+          </div>
+        </div>
       </div>
 
       <DownloadProgress 
@@ -215,7 +199,6 @@ function EmulatorDetails() {
                 alt={`Screenshot ${index + 1}`}
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
           ))}
         </div>

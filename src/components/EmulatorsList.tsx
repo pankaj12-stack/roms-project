@@ -24,7 +24,7 @@ function EmulatorsList() {
   }
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="max-w-[1400px] mx-auto px-4 py-8">
       {/* Breadcrumb */}
       <div className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
         <Link to="/emulators" className="hover:text-purple-400 transition-colors flex items-center">
@@ -33,7 +33,7 @@ function EmulatorsList() {
         </Link>
       </div>
 
-      <div className="flex items-center justify-between mb-12">
+      <div className="flex items-center justify-between mb-8">
         <h1 className="text-2xl font-bold">{console.name} Emulators</h1>
         <SortDropdown 
           onSort={() => {}}
@@ -41,22 +41,22 @@ function EmulatorsList() {
         />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
         {consoleEmulators.map((emulator) => (
           <Link 
             key={emulator.id}
             to={`/emulator/${emulator.slug}`}
-            className="bg-gray-800/50 backdrop-blur-sm rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300"
+            className="bg-gray-800/50 backdrop-blur-sm rounded-2xl overflow-hidden hover:scale-105 transition-transform duration-300"
           >
-            <div className="aspect-[3/2] relative bg-slate-300">
+            <div className="aspect-[4/3] relative bg-slate-300">
               <img 
                 src={emulator.logo} 
                 alt={emulator.name}
-                className="w-full h-full object-contain p-6"
+                className="w-full h-full object-contain p-8"
               />
             </div>
-            <div className="p-3 bg-gray-800/80">
-              <h3 className="text-base font-medium text-white mb-0.5">{emulator.name}</h3>
+            <div className="p-4 bg-gray-800/80">
+              <h3 className="text-lg font-medium text-white mb-1">{emulator.name}</h3>
               <p className="text-sm text-gray-400">{emulator.downloads.toLocaleString()} Downloads</p>
             </div>
           </Link>

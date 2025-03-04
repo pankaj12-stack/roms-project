@@ -62,7 +62,7 @@ function GameDetails() {
   const similarGames = games.filter(g => g.id !== game.id).slice(0, 12);
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="max-w-[1400px] mx-auto px-4 py-8">
       {/* Breadcrumb */}
       <div className="flex items-center space-x-2 text-sm text-gray-400 mb-8">
         <Link to="/" className="hover:text-purple-400 transition-colors flex items-center">
@@ -74,16 +74,16 @@ function GameDetails() {
       {/* Game Header */}
       <div className="flex flex-col lg:flex-row gap-8 mb-12">
         {/* Image Container */}
-        <div className="lg:w-[400px] flex-shrink-0">
-            <div className="relative w-[400px] aspect-[3/4] mx-auto lg:mx-0">
-              <div className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
-                <img
-                  src={game.image}
-                  alt={game.title}
-                  className="rounded-2xl w-full h-full object-cover"
-                />
-              </div>
+        <div className="w-full lg:w-1/3 flex-shrink-0">
+          <div className="relative w-[min(280px,70vw)] sm:w-[min(320px,70vw)] md:w-[min(360px,70vw)] lg:w-full aspect-[3/4] mx-auto lg:mx-0">
+            <div className="absolute inset-0 w-full h-full">
+              <img
+                src={game.image}
+                alt={game.title}
+                className="rounded-2xl w-full h-full object-cover"
+              />
             </div>
+          </div>
         </div>
 
         {/* Content Container */}
@@ -91,17 +91,17 @@ function GameDetails() {
           <h1 className="text-4xl font-bold mb-6 text-white">{game.title}</h1>
           
           {/* Game Info and Save Game Section */}
-          <div className="flex flex-col lg:flex-row gap-8 mb-8">
+          <div className="space-y-8 lg:space-y-0 lg:flex lg:flex-row lg:gap-8 mb-8">
             {/* Nine info blocks in 3x3 grid */}
-            <div className="grid grid-cols-3 gap-4 lg:w-3/5">
+            <div className="grid grid-cols-2 gap-4 lg:w-3/5">
               {/* Rating Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-yellow-400 mb-2">
-                  <div className="flex items-center">
+                  <div className="hidden sm:flex items-center">
                     {[1, 2, 3, 4].map((star) => (
-                      <Star key={star} className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5 fill-current text-yellow-400" />
+                      <Star key={star} className="w-3.5 h-3.5 lg:w-4 lg:h-4 fill-current text-yellow-400" />
                     ))}
-                    <Star className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5 fill-current text-gray-600" />
+                    <Star className="w-3.5 h-3.5 lg:w-4 lg:h-4 fill-current text-gray-600" />
                   </div>
                   <div className="flex items-center gap-1.5">
                     <span className="text-base lg:text-lg font-semibold">4.09</span>
@@ -114,7 +114,7 @@ function GameDetails() {
               {/* Size Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-purple-400 mb-2">
-                  <HardDrive className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <HardDrive className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
                   <span className="text-base lg:text-lg font-semibold">792 MB</span>
                 </div>
                 <span className="text-sm lg:text-base text-gray-400 font-medium">Size</span>
@@ -123,7 +123,7 @@ function GameDetails() {
               {/* Console Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-blue-400 mb-2">
-                  <Globe className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <Globe className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
                   <span className="text-base lg:text-lg font-semibold">PlayStation</span>
                 </div>
                 <span className="text-sm lg:text-base text-gray-400 font-medium">Console</span>
@@ -132,55 +132,25 @@ function GameDetails() {
               {/* Genre Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-green-400 mb-2">
-                  <GamepadIcon className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <GamepadIcon className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
                   <span className="text-base lg:text-lg font-semibold">Action</span>
                 </div>
                 <span className="text-sm lg:text-base text-gray-400 font-medium">Genre</span>
               </div>
 
-              {/* Region Block */}
-              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
-                <div className="flex items-center space-x-2 text-orange-400 mb-2">
-                  <MapPin className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
-                  <div className="flex items-center gap-1.5">
-                    <img src="https://flagcdn.com/w20/eu.png" alt="EU" className="w-4 h-2.5" />
-                    <img src="https://flagcdn.com/w20/us.png" alt="US" className="w-4 h-2.5" />
-                  </div>
-                </div>
-                <span className="text-sm lg:text-base text-gray-400 font-medium">Region</span>
-              </div>
-
               {/* Language Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-blue-400 mb-2">
-                  <Languages className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <Languages className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
                   <span className="text-base lg:text-lg font-semibold">English</span>
                 </div>
                 <span className="text-sm lg:text-base text-gray-400 font-medium">Language</span>
               </div>
 
-              {/* Views Block */}
-              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
-                <div className="flex items-center space-x-2 text-purple-400 mb-2">
-                  <Eye className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
-                  <span className="text-base lg:text-lg font-semibold">4,222</span>
-                </div>
-                <span className="text-sm lg:text-base text-gray-400 font-medium">Views</span>
-              </div>
-
-              {/* Downloads Block */}
-              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
-                <div className="flex items-center space-x-2 text-emerald-400 mb-2">
-                  <Download className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
-                  <span className="text-base lg:text-lg font-semibold">4,550</span>
-                </div>
-                <span className="text-sm lg:text-base text-gray-400 font-medium">Downloads</span>
-              </div>
-
               {/* Release Year Block */}
               <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
                 <div className="flex items-center space-x-2 text-green-400 mb-2">
-                  <Calendar className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <Calendar className="w-3.5 h-3.5 lg:w-4 lg:h-4" />
                   <span className="text-base lg:text-lg font-semibold">2003</span>
                 </div>
                 <span className="text-sm lg:text-base text-gray-400 font-medium">Release Year</span>
@@ -195,6 +165,7 @@ function GameDetails() {
             </div>
           </div>
 
+          {/* About Section */}
           <div className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm mb-8">
             <h2 className="text-xl font-semibold mb-4 flex items-center text-white">
               <Info className="w-5 h-5 mr-2 text-purple-400" />
@@ -272,13 +243,12 @@ function GameDetails() {
                 alt={`Screenshot ${index + 1}`}
                 className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
               />
-              <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </div>
           ))}
         </div>
       </div>
 
-      {/* Replace the User Reviews section with Related Games sections */}
+      {/* Related Games sections */}
       <div className="space-y-12">
         <RelatedGames 
           title={`Popular ${game.category} Games`}
