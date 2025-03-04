@@ -3,6 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import { Grid, Download, Gamepad2, Tag, Search } from 'lucide-react';
 import GamesList from './components/GamesList';
 import GameDetails from './components/GameDetails';
+import EmulatorsList from './components/EmulatorsList';
+import EmulatorDetails from './components/EmulatorDetails';
+import ConsolesList from './components/ConsolesList';
 
 function App() {
   return (
@@ -20,7 +23,7 @@ function App() {
                 <Grid className="w-5 h-5" />
                 <span>ROMs</span>
               </a>
-              <a href="#" className="flex items-center space-x-2 hover:text-purple-400 transition-colors">
+              <a href="/emulators" className="flex items-center space-x-2 hover:text-purple-400 transition-colors">
                 <Download className="w-5 h-5" />
                 <span>Emulators</span>
               </a>
@@ -51,6 +54,9 @@ function App() {
       <Routes>
         <Route path="/" element={<GamesList />} />
         <Route path="/game/:id" element={<GameDetails />} />
+        <Route path="/emulators" element={<ConsolesList />} />
+        <Route path="/emulators/:slug" element={<EmulatorsList />} />
+        <Route path="/emulator/:slug" element={<EmulatorDetails />} />
       </Routes>
 
       {/* Footer */}

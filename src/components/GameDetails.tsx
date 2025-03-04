@@ -1,11 +1,42 @@
-import React from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Download, ChevronLeft, Star, Info, HardDrive, Globe, Calendar, Users } from 'lucide-react';
+import { Download, ChevronLeft, Star, Info, HardDrive, Globe, Calendar, Users, ChevronRight, GamepadIcon, MapPin, Languages, Eye } from 'lucide-react';
 import { games } from '../data/games';
+import RelatedGames from './RelatedGames';
+import DownloadSection from './DownloadSection';
+import DownloadProgress from './DownloadProgress';
 
 function GameDetails() {
   const { id } = useParams();
   const game = games.find(g => g.id === Number(id));
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [countdown, setCountdown] = useState(3);
+  const downloadSectionRef = useRef<HTMLDivElement>(null);
+
+  const handleDownload = () => {
+    if (!isDownloading) {
+      setIsDownloading(true);
+      setCountdown(3);
+      setTimeout(() => {
+        if (downloadSectionRef.current) {
+          const yOffset = -40;
+          const element = downloadSectionRef.current;
+          const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  };
+
+  useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+    if (isDownloading && countdown > 0) {
+      timer = setTimeout(() => {
+        setCountdown(prev => prev - 1);
+      }, 1000);
+    }
+    return () => clearTimeout(timer);
+  }, [isDownloading, countdown]);
 
   if (!game) {
     return (
@@ -26,6 +57,10 @@ function GameDetails() {
     "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=800&q=80"
   ];
 
+  // Filter games for related sections
+  const popularGames = games.filter(g => g.id !== game.id).slice(0, 12);
+  const similarGames = games.filter(g => g.id !== game.id).slice(0, 12);
+
   return (
     <main className="container mx-auto px-4 py-8">
       {/* Breadcrumb */}
@@ -37,55 +72,126 @@ function GameDetails() {
       </div>
 
       {/* Game Header */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-12">
-        {/* Main Image - DVD Cover Size */}
-        <div className="lg:col-span-4">
-          <div className="relative rounded-lg overflow-hidden shadow-2xl" style={{ paddingBottom: '140%' }}>
-            <img
-              src={game.image}
-              alt={game.title}
-              className="absolute inset-0 w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent opacity-60" />
-            <button className="absolute bottom-4 left-4 right-4 bg-purple-500 text-white px-6 py-3 rounded-lg flex items-center justify-center space-x-2 transform hover:scale-105 transition-transform duration-300 shadow-lg">
-              <Download className="w-5 h-5" />
-              <span>Download ROM</span>
-            </button>
-          </div>
+      <div className="flex flex-col lg:flex-row gap-8 mb-12">
+        {/* Image Container */}
+        <div className="lg:w-[400px] flex-shrink-0">
+            <div className="relative w-[400px] aspect-[3/4] mx-auto lg:mx-0">
+              <div className="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
+                <img
+                  src={game.image}
+                  alt={game.title}
+                  className="rounded-2xl w-full h-full object-cover"
+                />
+              </div>
+            </div>
         </div>
 
-        {/* Game Info */}
-        <div className="lg:col-span-8">
+        {/* Content Container */}
+        <div className="flex-grow">
           <h1 className="text-4xl font-bold mb-6 text-white">{game.title}</h1>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            <div className="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
-              <div className="flex items-center space-x-2 text-yellow-400 mb-1">
-                <Star className="w-5 h-5" />
-                <span className="text-lg font-semibold">{game.rating}</span>
+          {/* Game Info and Save Game Section */}
+          <div className="flex flex-col lg:flex-row gap-8 mb-8">
+            {/* Nine info blocks in 3x3 grid */}
+            <div className="grid grid-cols-3 gap-4 lg:w-3/5">
+              {/* Rating Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-yellow-400 mb-2">
+                  <div className="flex items-center">
+                    {[1, 2, 3, 4].map((star) => (
+                      <Star key={star} className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5 fill-current text-yellow-400" />
+                    ))}
+                    <Star className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5 fill-current text-gray-600" />
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <span className="text-base lg:text-lg font-semibold">4.09</span>
+                    <span className="text-gray-400 text-sm">(56)</span>
+                  </div>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Rating</span>
               </div>
-              <span className="text-sm text-gray-400">Rating</span>
+
+              {/* Size Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-purple-400 mb-2">
+                  <HardDrive className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">792 MB</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Size</span>
+              </div>
+
+              {/* Console Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-blue-400 mb-2">
+                  <Globe className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">PlayStation</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Console</span>
+              </div>
+
+              {/* Genre Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-green-400 mb-2">
+                  <GamepadIcon className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">Action</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Genre</span>
+              </div>
+
+              {/* Region Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-orange-400 mb-2">
+                  <MapPin className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <div className="flex items-center gap-1.5">
+                    <img src="https://flagcdn.com/w20/eu.png" alt="EU" className="w-4 h-2.5" />
+                    <img src="https://flagcdn.com/w20/us.png" alt="US" className="w-4 h-2.5" />
+                  </div>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Region</span>
+              </div>
+
+              {/* Language Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-blue-400 mb-2">
+                  <Languages className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">English</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Language</span>
+              </div>
+
+              {/* Views Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-purple-400 mb-2">
+                  <Eye className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">4,222</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Views</span>
+              </div>
+
+              {/* Downloads Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-emerald-400 mb-2">
+                  <Download className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">4,550</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Downloads</span>
+              </div>
+
+              {/* Release Year Block */}
+              <div className="bg-gray-800/50 p-4 lg:p-5 rounded-lg backdrop-blur-sm">
+                <div className="flex items-center space-x-2 text-green-400 mb-2">
+                  <Calendar className="w-3.5 h-3.5 lg:w-4.5 lg:h-4.5" />
+                  <span className="text-base lg:text-lg font-semibold">2003</span>
+                </div>
+                <span className="text-sm lg:text-base text-gray-400 font-medium">Release Year</span>
+              </div>
             </div>
-            <div className="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
-              <div className="flex items-center space-x-2 text-purple-400 mb-1">
-                <HardDrive className="w-5 h-5" />
-                <span className="text-lg font-semibold">{game.size}</span>
-              </div>
-              <span className="text-sm text-gray-400">Size</span>
-            </div>
-            <div className="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
-              <div className="flex items-center space-x-2 text-blue-400 mb-1">
-                <Globe className="w-5 h-5" />
-                <span className="text-lg font-semibold">{game.language}</span>
-              </div>
-              <span className="text-sm text-gray-400">Language</span>
-            </div>
-            <div className="bg-gray-800/50 p-4 rounded-lg backdrop-blur-sm">
-              <div className="flex items-center space-x-2 text-green-400 mb-1">
-                <Calendar className="w-5 h-5" />
-                <span className="text-lg font-semibold">1997</span>
-              </div>
-              <span className="text-sm text-gray-400">Release Year</span>
+
+            {/* Save Game Section */}
+            <div className="w-full lg:w-2/5">
+              <DownloadSection 
+                onDownload={handleDownload}
+              />
             </div>
           </div>
 
@@ -147,6 +253,14 @@ function GameDetails() {
         </div>
       </div>
 
+      {/* Download Progress */}
+      <DownloadProgress 
+        countdown={countdown}
+        title={game.title}
+        downloadRef={downloadSectionRef}
+        isDownloading={isDownloading}
+      />
+
       {/* Screenshots */}
       <div className="mb-12">
         <h2 className="text-2xl font-bold mb-6 text-white">Screenshots</h2>
@@ -164,39 +278,17 @@ function GameDetails() {
         </div>
       </div>
 
-      {/* User Reviews */}
-      <div>
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl font-bold text-white">User Reviews</h2>
-          <button className="bg-purple-500 px-6 py-2 rounded-lg hover:bg-purple-600 transition-colors text-white">
-            Write a Review
-          </button>
-        </div>
-        <div className="space-y-6">
-          {[1, 2, 3].map((review) => (
-            <div key={review} className="bg-gray-800/50 rounded-lg p-6 backdrop-blur-sm">
-              <div className="flex items-start justify-between mb-4">
-                <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center">
-                    <Users className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-white">User{review}</h3>
-                    <div className="flex items-center text-yellow-400">
-                      {'★'.repeat(5)}
-                    </div>
-                  </div>
-                </div>
-                <span className="text-sm text-gray-400">2 days ago</span>
-              </div>
-              <p className="text-gray-300">
-                Amazing classic game that still holds up today. The graphics might be dated,
-                but the gameplay and story are timeless. Highly recommended for both newcomers
-                and longtime fans of the series.
-              </p>
-            </div>
-          ))}
-        </div>
+      {/* Replace the User Reviews section with Related Games sections */}
+      <div className="space-y-12">
+        <RelatedGames 
+          title={`Popular ${game.category} Games`}
+          games={popularGames}
+        />
+        
+        <RelatedGames 
+          title={`Similar to ${game.title}`}
+          games={similarGames}
+        />
       </div>
     </main>
   );

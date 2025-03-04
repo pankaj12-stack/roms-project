@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="shortcut icon" type="image/x-icon" href="https://romsfun.com/wp-content/uploads/2021/04/rom.png">
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v24.2 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Final Rage Chaos ROM | OpenBOR Game</title>
+	<meta name="description" content="Final Rage Chaos rom &amp; iso for OpenBOR, free download for Emulator" />
+	<link rel="canonical" href="https://romsfun.com/roms/openbor/final-rage-chaos.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Final Rage Chaos ROM | OpenBOR Game" />
+	<meta property="og:description" content="Final Rage Chaos rom &amp; iso for OpenBOR, free download for Emulator" />
+	<meta property="og:url" content="https://romsfun.com/roms/openbor/final-rage-chaos.html" />
+	<meta property="og:site_name" content="ROMSFUN.COM" />
+	<meta property="og:image" content="http://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg" />
+	<meta property="og:image:width" content="900" />
+	<meta property="og:image:height" content="1170" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html","url":"https://romsfun.com/roms/openbor/final-rage-chaos.html","name":"Final Rage Chaos ROM | OpenBOR Game","isPartOf":{"@id":"https://romsfun.com/#website"},"primaryImageOfPage":{"@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html#primaryimage"},"image":{"@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html#primaryimage"},"thumbnailUrl":"https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg","datePublished":"2024-11-01T21:30:47+00:00","dateModified":"2024-11-01T21:30:47+00:00","description":"Final Rage Chaos rom & iso for OpenBOR, free download for Emulator","breadcrumb":{"@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://romsfun.com/roms/openbor/final-rage-chaos.html"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html#primaryimage","url":"https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg","contentUrl":"https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg","width":900,"height":1170,"caption":"Final Rage Chaos"},{"@type":"BreadcrumbList","@id":"https://romsfun.com/roms/openbor/final-rage-chaos.html#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://romsfun.com/"},{"@type":"ListItem","position":2,"name":"Final Rage Chaos"}]},{"@type":"WebSite","@id":"https://romsfun.com/#website","url":"https://romsfun.com/","name":"ROMSFUN.COM","description":"Download ROMs and ISOs of Nintendo, Playstation, XBOX...","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://romsfun.com/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="ROMSFUN.COM &raquo; Feed" href="https://romsfun.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ROMSFUN.COM &raquo; Comments Feed" href="https://romsfun.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"wpemoji":"https:\/\/romsfun.com\/wp-includes\/js\/wp-emoji.js?ver=6.6.2","twemoji":"https:\/\/romsfun.com\/wp-includes\/js\/twemoji.js?ver=6.6.2"}};
+/**
+ * @output wp-includes/js/wp-emoji-loader.js
+ */
+
+/**
+ * Emoji Settings as exported in PHP via _print_emoji_detection_script().
+ * @typedef WPEmojiSettings
+ * @type {object}
+ * @property {?object} source
+ * @property {?string} source.concatemoji
+ * @property {?string} source.twemoji
+ * @property {?string} source.wpemoji
+ * @property {?boolean} DOMReady
+ * @property {?Function} readyCallback
+ */
+
+/**
+ * Support tests.
+ * @typedef SupportTests
+ * @type {object}
+ * @property {?boolean} flag
+ * @property {?boolean} emoji
+ */
+
+/**
+ * IIFE to detect emoji support and load Twemoji if needed.
+ *
+ * @param {Window} window
+ * @param {Document} document
+ * @param {WPEmojiSettings} settings
+ */
+( function wpEmojiLoader( window, document, settings ) {
+	if ( typeof Promise === 'undefined' ) {
+		return;
+	}
+
+	var sessionStorageKey = 'wpEmojiSettingsSupports';
+	var tests = [ 'flag', 'emoji' ];
+
+	/**
+	 * Checks whether the browser supports offloading to a Worker.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {boolean}
+	 */
+	function supportsWorkerOffloading() {
+		return (
+			typeof Worker !== 'undefined' &&
+			typeof OffscreenCanvas !== 'undefined' &&
+			typeof URL !== 'undefined' &&
+			URL.createObjectURL &&
+			typeof Blob !== 'undefined'
+		);
+	}
+
+	/**
+	 * @typedef SessionSupportTests
+	 * @type {object}
+	 * @property {number} timestamp
+	 * @property {SupportTests} supportTests
+	 */
+
+	/**
+	 * Get support tests from session.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @returns {?SupportTests} Support tests, or null if not set or older than 1 week.
+	 */
+	function getSessionSupportTests() {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = JSON.parse(
+				sessionStorage.getItem( sessionStorageKey )
+			);
+			if (
+				typeof item === 'object' &&
+				typeof item.timestamp === 'number' &&
+				new Date().valueOf() < item.timestamp + 604800 && // Note: Number is a week in seconds.
+				typeof item.supportTests === 'object'
+			) {
+				return item.supportTests;
+			}
+		} catch ( e ) {}
+		return null;
+	}
+
+	/**
+	 * Persist the supports in session storage.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {SupportTests} supportTests Support tests.
+	 */
+	function setSessionSupportTests( supportTests ) {
+		try {
+			/** @type {SessionSupportTests} */
+			var item = {
+				supportTests: supportTests,
+				timestamp: new Date().valueOf()
+			};
+
+			sessionStorage.setItem(
+				sessionStorageKey,
+				JSON.stringify( item )
+			);
+		} catch ( e ) {}
+	}
+
+	/**
+	 * Checks if two sets of Emoji characters render the same visually.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.9.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} set1 Set of Emoji to test.
+	 * @param {string} set2 Set of Emoji to test.
+	 *
+	 * @return {boolean} True if the two sets render the same.
+	 */
+	function emojiSetsRenderIdentically( context, set1, set2 ) {
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set1, 0, 0 );
+		var rendered1 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		// Cleanup from previous test.
+		context.clearRect( 0, 0, context.canvas.width, context.canvas.height );
+		context.fillText( set2, 0, 0 );
+		var rendered2 = new Uint32Array(
+			context.getImageData(
+				0,
+				0,
+				context.canvas.width,
+				context.canvas.height
+			).data
+		);
+
+		return rendered1.every( function ( rendered2Data, index ) {
+			return rendered2Data === rendered2[ index ];
+		} );
+	}
+
+	/**
+	 * Determines if the browser properly renders Emoji that Twemoji can supplement.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 4.2.0
+	 *
+	 * @private
+	 *
+	 * @param {CanvasRenderingContext2D} context 2D Context.
+	 * @param {string} type Whether to test for support of "flag" or "emoji".
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {boolean} True if the browser can render emoji, false if it cannot.
+	 */
+	function browserSupportsEmoji( context, type, emojiSetsRenderIdentically ) {
+		var isIdentical;
+
+		switch ( type ) {
+			case 'flag':
+				/*
+				 * Test for Transgender flag compatibility. Added in Unicode 13.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (white flag emoji + transgender symbol).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDFF3\uFE0F\u200D\u26A7\uFE0F', // as a zero-width joiner sequence
+					'\uD83C\uDFF3\uFE0F\u200B\u26A7\uFE0F' // separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for UN flag compatibility. This is the least supported of the letter locale flags,
+				 * so gives us an easy test for full support.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly ([U] + [N]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83C\uDDFA\uD83C\uDDF3', // as the sequence of two code points
+					'\uD83C\uDDFA\u200B\uD83C\uDDF3' // as the two code points separated by a zero-width space
+				);
+
+				if ( isIdentical ) {
+					return false;
+				}
+
+				/*
+				 * Test for English flag compatibility. England is a country in the United Kingdom, it
+				 * does not have a two letter locale code but rather a five letter sub-division code.
+				 *
+				 * To test for support, we try to render it, and compare the rendering to how it would look if
+				 * the browser doesn't render it correctly (black flag emoji + [G] + [B] + [E] + [N] + [G]).
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					// as the flag sequence
+					'\uD83C\uDFF4\uDB40\uDC67\uDB40\uDC62\uDB40\uDC65\uDB40\uDC6E\uDB40\uDC67\uDB40\uDC7F',
+					// with each code point separated by a zero-width space
+					'\uD83C\uDFF4\u200B\uDB40\uDC67\u200B\uDB40\uDC62\u200B\uDB40\uDC65\u200B\uDB40\uDC6E\u200B\uDB40\uDC67\u200B\uDB40\uDC7F'
+				);
+
+				return ! isIdentical;
+			case 'emoji':
+				/*
+				 * Four and twenty blackbirds baked in a pie.
+				 *
+				 * To test for Emoji 15.0 support, try to render a new emoji: Blackbird.
+				 *
+				 * The Blackbird is a ZWJ sequence combining 🐦 Bird and ⬛ large black square.,
+				 *
+				 * 0x1F426 (\uD83D\uDC26) == Bird
+				 * 0x200D == Zero-Width Joiner (ZWJ) that links the code points for the new emoji or
+				 * 0x200B == Zero-Width Space (ZWS) that is rendered for clients not supporting the new emoji.
+				 * 0x2B1B == Large Black Square
+				 *
+				 * When updating this test for future Emoji releases, ensure that individual emoji that make up the
+				 * sequence come from older emoji standards.
+				 */
+				isIdentical = emojiSetsRenderIdentically(
+					context,
+					'\uD83D\uDC26\u200D\u2B1B', // as the zero-width joiner sequence
+					'\uD83D\uDC26\u200B\u2B1B' // separated by a zero-width space
+				);
+
+				return ! isIdentical;
+		}
+
+		return false;
+	}
+
+	/**
+	 * Checks emoji support tests.
+	 *
+	 * This function may be serialized to run in a Worker. Therefore, it cannot refer to variables from the containing
+	 * scope. Everything must be passed by parameters.
+	 *
+	 * @since 6.3.0
+	 *
+	 * @private
+	 *
+	 * @param {string[]} tests Tests.
+	 * @param {Function} browserSupportsEmoji Reference to browserSupportsEmoji function, needed due to minification.
+	 * @param {Function} emojiSetsRenderIdentically Reference to emojiSetsRenderIdentically function, needed due to minification.
+	 *
+	 * @return {SupportTests} Support tests.
+	 */
+	function testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically ) {
+		var canvas;
+		if (
+			typeof WorkerGlobalScope !== 'undefined' &&
+			self instanceof WorkerGlobalScope
+		) {
+			canvas = new OffscreenCanvas( 300, 150 ); // Dimensions are default for HTMLCanvasElement.
+		} else {
+			canvas = document.createElement( 'canvas' );
+		}
+
+		var context = canvas.getContext( '2d', { willReadFrequently: true } );
+
+		/*
+		 * Chrome on OS X added native emoji rendering in M41. Unfortunately,
+		 * it doesn't work when the font is bolder than 500 weight. So, we
+		 * check for bold rendering support to avoid invisible emoji in Chrome.
+		 */
+		context.textBaseline = 'top';
+		context.font = '600 32px Arial';
+
+		var supports = {};
+		tests.forEach( function ( test ) {
+			supports[ test ] = browserSupportsEmoji( context, test, emojiSetsRenderIdentically );
+		} );
+		return supports;
+	}
+
+	/**
+	 * Adds a script to the head of the document.
+	 *
+	 * @ignore
+	 *
+	 * @since 4.2.0
+	 *
+	 * @param {string} src The url where the script is located.
+	 *
+	 * @return {void}
+	 */
+	function addScript( src ) {
+		var script = document.createElement( 'script' );
+		script.src = src;
+		script.defer = true;
+		document.head.appendChild( script );
+	}
+
+	settings.supports = {
+		everything: true,
+		everythingExceptFlag: true
+	};
+
+	// Create a promise for DOMContentLoaded since the worker logic may finish after the event has fired.
+	var domReadyPromise = new Promise( function ( resolve ) {
+		document.addEventListener( 'DOMContentLoaded', resolve, {
+			once: true
+		} );
+	} );
+
+	// Obtain the emoji support from the browser, asynchronously when possible.
+	new Promise( function ( resolve ) {
+		var supportTests = getSessionSupportTests();
+		if ( supportTests ) {
+			resolve( supportTests );
+			return;
+		}
+
+		if ( supportsWorkerOffloading() ) {
+			try {
+				// Note that the functions are being passed as arguments due to minification.
+				var workerScript =
+					'postMessage(' +
+					testEmojiSupports.toString() +
+					'(' +
+					[
+						JSON.stringify( tests ),
+						browserSupportsEmoji.toString(),
+						emojiSetsRenderIdentically.toString()
+					].join( ',' ) +
+					'));';
+				var blob = new Blob( [ workerScript ], {
+					type: 'text/javascript'
+				} );
+				var worker = new Worker( URL.createObjectURL( blob ), { name: 'wpTestEmojiSupports' } );
+				worker.onmessage = function ( event ) {
+					supportTests = event.data;
+					setSessionSupportTests( supportTests );
+					worker.terminate();
+					resolve( supportTests );
+				};
+				return;
+			} catch ( e ) {}
+		}
+
+		supportTests = testEmojiSupports( tests, browserSupportsEmoji, emojiSetsRenderIdentically );
+		setSessionSupportTests( supportTests );
+		resolve( supportTests );
+	} )
+		// Once the browser emoji support has been obtained from the session, finalize the settings.
+		.then( function ( supportTests ) {
+			/*
+			 * Tests the browser support for flag emojis and other emojis, and adjusts the
+			 * support settings accordingly.
+			 */
+			for ( var test in supportTests ) {
+				settings.supports[ test ] = supportTests[ test ];
+
+				settings.supports.everything =
+					settings.supports.everything && settings.supports[ test ];
+
+				if ( 'flag' !== test ) {
+					settings.supports.everythingExceptFlag =
+						settings.supports.everythingExceptFlag &&
+						settings.supports[ test ];
+				}
+			}
+
+			settings.supports.everythingExceptFlag =
+				settings.supports.everythingExceptFlag &&
+				! settings.supports.flag;
+
+			// Sets DOMReady to false and assigns a ready function to settings.
+			settings.DOMReady = false;
+			settings.readyCallback = function () {
+				settings.DOMReady = true;
+			};
+		} )
+		.then( function () {
+			return domReadyPromise;
+		} )
+		.then( function () {
+			// When the browser can not render everything we need to load a polyfill.
+			if ( ! settings.supports.everything ) {
+				settings.readyCallback();
+
+				var src = settings.source || {};
+
+				if ( src.concatemoji ) {
+					addScript( src.concatemoji );
+				} else if ( src.wpemoji && src.twemoji ) {
+					addScript( src.twemoji );
+					addScript( src.wpemoji );
+				}
+			}
+		} );
+} )( window, document, window._wpemojiSettings );
+
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://romsfun.com/wp-includes/css/dist/block-library/style.css?ver=6.6.2' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/**
+ * These rules are needed for backwards compatibility.
+ * They should match the button element rules in the base theme.json file.
+ */
+.wp-block-button__link {
+	color: #ffffff;
+	background-color: #32373c;
+	border-radius: 9999px; /* 100% causes an oval, but any explicit but really high value retains the pill shape. */
+
+	/* This needs a low specificity so it won't override the rules from the button element if defined in theme.json. */
+	box-shadow: none;
+	text-decoration: none;
+
+	/* The extra 2px are added to size solids the same as the outline versions.*/
+	padding: calc(0.667em + 2px) calc(1.333em + 2px);
+
+	font-size: 1.125em;
+}
+
+.wp-block-file__button {
+	background: #32373c;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='k-bootstrap-css' href='https://romsfun.com/wp-content/themes/romsfun/css/bootstrap.min.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='k-style-css' href='https://romsfun.com/wp-content/themes/romsfun/style.css?ver=1.5' type='text/css' media='all' />
+<script type="text/javascript" src="https://romsfun.com/wp-includes/js/jquery/jquery.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://romsfun.com/wp-includes/js/jquery/jquery-migrate.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://romsfun.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://romsfun.com/wp-json/wp/v2/rom/208028" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://romsfun.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.6.2" />
+<link rel='shortlink' href='https://romsfun.com/?p=208028' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://romsfun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromsfun.com%2Froms%2Fopenbor%2Ffinal-rage-chaos.html" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://romsfun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fromsfun.com%2Froms%2Fopenbor%2Ffinal-rage-chaos.html&#038;format=xml" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89527130-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-89527130-9');
+</script>
+
+	<script type="application/ld+json">
+	{
+	    "@context": "http://schema.org/",
+	    "@type": "SoftwareApplication",
+	    "name": "Final Rage Chaos",
+	    "applicationCategory": "GameApplication",
+	    "operatingSystem": "",
+	    "softwareVersion": "",
+	    "offers": {
+	        "@type": "Offer",
+	        "price": "0",
+	        "priceCurrency": "USD"
+	    },
+	    "aggregateRating": {
+	        "@type": "AggregateRating",
+	        "bestRating": 5,
+	        "worstRating": 1,
+	        "ratingCount": "1",
+	        "ratingValue": "3"
+	    }
+	}            
+	</script>
+
+	
+    
+</head>
+
+<body class="rom-template-default single single-rom postid-208028 bg-light">
+<div id="page" class="site">
+	<a class="skip-link sr-only" href="#content">Skip to content</a>
+    
+    <header id="masthead" class="bg-primary site-header">
+		<div class="container d-flex align-items-center">
+            				<p class="h2 font-weight-bold text-uppercase mb-0 site-logo">
+					<a class="text-white" href="https://romsfun.com/" rel="home">
+													<img src="https://romsfun.com/wp-content/uploads/2023/08/LOGO.png" alt="ROMSFUN.COM" title="ROMSFUN.COM"/>
+											</a>
+				</p>
+			                    				
+			<nav class="ml-auto site-nav">
+				<div class="d-flex d-md-none justify-content-end">
+					<button class="bg-transparent border-0 py-2 px-3 site-nav-closer" type="button">
+						<svg height="1.5rem" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"/></svg>
+					</button>
+				</div>
+
+				<ul id="menu-site-navigation" class="menu"><li id="menu-item-71431" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-71431"><a href="https://romsfun.com/">Home</a></li>
+<li id="menu-item-77914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77914"><a href="https://romsfun.com/roms/">Roms</a></li>
+<li id="menu-item-82378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82378"><a href="https://romsfun.com/emulators/">Emulators</a></li>
+<li id="menu-item-71459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-71459"><a href="/requires-rom">Request</a></li>
+<li id="menu-item-77916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-77916"><a href="https://romsfun.com/blog/">Blog</a></li>
+</ul>				
+			</nav>
+			<button class="text-white bg-transparent border-0 d-md-none py-3 px-0 ml-auto site-nav-toggler" type="button">
+				<svg height="1.75rem" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"/></svg>
+			</button>
+		</div>
+	</header>
+	<div id="content" class="site-content">
+	
+	
+					<div class="bg-light py-2">
+				<div class="container">
+					
+    <ul id="breadcrumb" class="breadcrumb">
+        <li class="breadcrumb-item home"><a href="https://romsfun.com" title="Home">Home</a></li>
+
+                                    <li class="breadcrumb-item"><a href="https://romsfun.com/roms/" title="Roms">Roms</a></li>
+                                        <li class="breadcrumb-item"><a href="https://romsfun.com/roms/openbor" title="OpenBOR">OpenBOR</a></li>
+                <li class="breadcrumb-item active">Final Rage Chaos</li>
+                </ul>
+				</div>
+			</div>
+		
+
+		
+		<div class="container py-4">
+	<div class="row">
+		<main id="primary" class="col-12 content-area">
+			<div class="bg-white border rounded shadow-sm p-3 mb-4">
+				<div class="row">
+
+					<div class="col-12 col-md-4 text-center feature-cover position-relative">
+                        <img width="900" height="1170" src="https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Final Rage Chaos" decoding="async" fetchpriority="high" srcset="https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos.jpg 900w, https://romsfun.com/wp-content/uploads/2024/11/Final-Rage-Chaos-300x390.jpg 300w" sizes="(max-width: 900px) 100vw, 900px" />                        					</div>
+					<div class="col-12 col-md-8">
+						<h1 class="h3 font-weight-bold text-primary mb-3">
+							Final Rage Chaos						</h1>
+						<table class="table table-borderless table-striped table-sm">
+															<tr>
+									<th style="width: 9rem;">
+										<svg class="svg-5 svg-muted mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M352 0H32A32 32 0 0 0 0 32v448a32 32 0 0 0 32 32h256a96 96 0 0 0 96-96V32a32 32 0 0 0-32-32zM160 344a8 8 0 0 1-8 8h-24v24a8 8 0 0 1-8 8h-16a8 8 0 0 1-8-8v-24H72a8 8 0 0 1-8-8v-16a8 8 0 0 1 8-8h24v-24a8 8 0 0 1 8-8h16a8 8 0 0 1 8 8v24h24a8 8 0 0 1 8 8zm72 40a24 24 0 1 1 24-24 24 24 0 0 1-24 24zM112 224a16 16 0 0 1-16-16V80a16 16 0 0 1 16-16h160a16 16 0 0 1 16 16v112a32 32 0 0 1-32 32zm184 112a24 24 0 1 1 24-24 24 24 0 0 1-24 24z"/></svg>
+										Console									</th>
+									<td>
+										<a href="https://romsfun.com/roms/openbor">
+											OpenBOR										</a>
+
+																			</td>
+								</tr>
+							
+							
+							
+							
+							
+							<tr>
+								<th style="width: 9rem;">
+									<svg class="svg-5 svg-muted mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M279.6 160.4C282.4 160.1 285.2 160 288 160C341 160 384 202.1 384 256C384 309 341 352 288 352C234.1 352 192 309 192 256C192 253.2 192.1 250.4 192.4 247.6C201.7 252.1 212.5 256 224 256C259.3 256 288 227.3 288 192C288 180.5 284.1 169.7 279.6 160.4zM480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6V112.6zM288 112C208.5 112 144 176.5 144 256C144 335.5 208.5 400 288 400C367.5 400 432 335.5 432 256C432 176.5 367.5 112 288 112z"/></svg>
+									Views		
+								</th>
+								<td>27</td>
+							</tr>
+							<tr>
+								<th style="width: 9rem;">
+									<svg class="svg-5 svg-muted mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+									Downloads		
+								</th>
+								<td>22</td>
+							</tr>
+
+							
+							                                <tr>
+                                    <th style="width: 9rem;">
+                                        <svg class="svg-5 svg-muted mr-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M503.1 273.6l-112 104c-6.984 6.484-17.17 8.219-25.92 4.406s-14.41-12.45-14.41-22v-56l-192 .001V360c0 9.547-5.656 18.19-14.41 22c-8.75 3.812-18.94 2.078-25.92-4.406l-112-104c-9.781-9.094-9.781-26.09 0-35.19l112-104c6.984-6.484 17.17-8.219 25.92-4.406C154 133.8 159.7 142.5 159.7 152v55.1l192-.001v-56c0-9.547 5.656-18.19 14.41-22s18.94-2.078 25.92 4.406l112 104C513.8 247.5 513.8 264.5 503.1 273.6z"/></svg>
+                                        File size                                    </th>
+                                    <td>33.29 M</td>
+                                </tr>
+
+													</table>
+
+										    	<div class="d-flex align-items-center mb-3">
+				    		<div class="rating" data-post_id="208028" data-rateyo-rating="3" ></div>
+				    		<span class="ml-2">
+				    			3/5 (0 votes)
+				    		</span>
+				    	</div>
+
+                        
+                                                    <a class="btn btn-primary btn-block mx-auto mb-4 small" style="max-width: 260px;" href="https://romsfun.com/download/final-rage-chaos-208028" rel="nofollow">
+                                <svg class="svg-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M528 288h-92.1l46.1-46.1c30.1-30.1 8.8-81.9-33.9-81.9h-64V48c0-26.5-21.5-48-48-48h-96c-26.5 0-48 21.5-48 48v112h-64c-42.6 0-64.2 51.7-33.9 81.9l46.1 46.1H48c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V336c0-26.5-21.5-48-48-48zm-400-80h112V48h96v160h112L288 368 128 208zm400 256H48V336h140.1l65.9 65.9c18.8 18.8 49.1 18.7 67.9 0l65.9-65.9H528v128zm-88-64c0-13.3 10.7-24 24-24s24 10.7 24 24-10.7 24-24 24-24-10.7-24-24z"/></svg>
+                                <span class="align-middle">Download now</span>
+								
+							
+                            </a>
+                        
+                        						
+					</div>
+				</div>
+			</div>
+			
+			
+			
+						
+						
+			
+            <div class="help-block d-flex justify-content-between align-items-center px-3 py-2 bg-white my-4 rounded">
+    <span class="body-2 d-flex align-items-center"> Problems with download or installation? </span>
+    <button href="#" class="button btn btn-danger ml-auto" data-toggle="modal" data-target="#helpModal">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="mr-1 bi bi-flag" viewBox="0 0 16 16">
+            <path d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001M14 1.221c-.22.078-.48.167-.766.255-.81.252-1.872.523-2.734.523-.886 0-1.592-.286-2.203-.534l-.008-.003C7.662 1.21 7.139 1 6.5 1c-.669 0-1.606.229-2.415.478A21.294 21.294 0 0 0 3 1.845v6.433c.22-.078.48-.167.766-.255C4.576 7.77 5.638 7.5 6.5 7.5c.847 0 1.548.28 2.158.525l.028.01C9.32 8.29 9.86 8.5 10.5 8.5c.668 0 1.606-.229 2.415-.478A21.317 21.317 0 0 0 14 7.655V1.222z"/>
+        </svg>
+        Request help    </button>
+</div>
+
+<div class="modal fade" id="helpModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Help center</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                                    <form id="report-form" action="" method="post">
+
+                        <input type="hidden" id="report_form_nonce" name="report_form_nonce" value="05a9efe00d" /><input type="hidden" name="_wp_http_referer" value="/roms/openbor/final-rage-chaos.html" />                        <input type="hidden" name="post_id" value="208028" required>
+
+                        <div class="form-group">
+                            <label for="url-report">Report URL</label>
+                            <input type="url" value="https://romsfun.com/roms/openbor/final-rage-chaos.html" class="form-control" id="url-report" name="url-report" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="user-email">Your email</label>
+                            <input type="email" class="form-control" id="user-email" name="user-email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="report-type">Select Issue</label>
+                            <select class="form-control" id="report-type" name="report-type" required>
+                                                                        <option value="Download link broken, missing"> Download link broken, missing </option>
+                                                                            <option value="File is corrupted, cannot be extracted..."> File is corrupted, cannot be extracted... </option>
+                                                                            <option value="Other"> Other </option>
+                                                                </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="report-content">Feedback - Please describe the problem (optional)</label>
+                            <textarea class="form-control" id="report-content" name="report-content" maxlength="500"></textarea>
+                        </div>
+
+                        <input type="hidden" id="report_form_nonce" name="report_form_nonce" value="05a9efe00d" /><input type="hidden" name="_wp_http_referer" value="/roms/openbor/final-rage-chaos.html" />
+                        <button type="submit" class="report-btn btn btn-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mr-1 bi bi-send" viewBox="0 0 16 16">
+                                <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576 6.636 10.07Zm6.787-8.201L1.591 6.602l4.339 2.76 7.494-7.493Z"/>
+                            </svg>
+                            Send Report                        </button>
+                        <div class="error text-danger"></div>
+                    </form>
+                
+            </div>
+
+            <div class="modal-footer">
+                <small><i>You can send report each 10 minutes</i></small>
+            </div>
+        </div>
+
+    </div>
+</div>
+								<section class="related-roms">
+						<h2 class="h4 mb-4">Recommended for you</h2>
+						<div class="row">
+							
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/justice-league-legacy.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="154" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/Justice-League-Legacy-300x390.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Justice League Legacy" decoding="async" srcset="https://romsfun.com/wp-content/uploads/2024/11/Justice-League-Legacy-300x390.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/Justice-League-Legacy.jpg 900w" sizes="(max-width: 154px) 100vw, 154px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    Justice League Legacy                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>19</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    262.02 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/x-men-guerra-dos-clones.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="154" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/X-Men-Guerra-dos-Clones-300x390.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="X-Men: Guerra dos Clones" decoding="async" srcset="https://romsfun.com/wp-content/uploads/2024/11/X-Men-Guerra-dos-Clones-300x390.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/X-Men-Guerra-dos-Clones.jpg 900w" sizes="(max-width: 154px) 100vw, 154px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    X-Men: Guerra dos Clones                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>19</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    119.11 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/x-men-vs-street-fighter-4.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="143" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/X-Men-vs.-Street-Fighter-300x420.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="X-Men vs. Street Fighter" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/X-Men-vs.-Street-Fighter-300x420.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/X-Men-vs.-Street-Fighter.jpg 508w" sizes="(max-width: 143px) 100vw, 143px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    X-Men vs. Street Fighter                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>17</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    19.78 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/x-men-beats-of-rage.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="200" height="193" src="https://romsfun.com/wp-content/uploads/2024/11/X-Men-Beats-of-Rage-300x289.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="X-Men Beats of Rage" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/X-Men-Beats-of-Rage-300x289.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/X-Men-Beats-of-Rage.jpg 500w" sizes="(max-width: 200px) 100vw, 200px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    X-Men Beats of Rage                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>15</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    79.69 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/x-men-4.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="143" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/X-Men-300x420.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="X-Men" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/X-Men-300x420.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/X-Men.jpg 508w" sizes="(max-width: 143px) 100vw, 143px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    X-Men                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>46</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    13.28 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/world-heroes-supreme-justice-extra.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="154" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/World-Heroes-Supreme-Justice-Extra-300x390.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="World Heroes Supreme Justice Extra" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/World-Heroes-Supreme-Justice-Extra-300x390.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/World-Heroes-Supreme-Justice-Extra.jpg 900w" sizes="(max-width: 154px) 100vw, 154px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    World Heroes Supreme Justice Extra                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>27</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    105.48 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/womens-war.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="154" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/Womens-War-300x390.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Womens War" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/Womens-War-300x390.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/Womens-War.jpg 900w" sizes="(max-width: 154px) 100vw, 154px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    Womens War                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>29</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    566.01 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="col-6 col-md-4 col-lg-3 mb-4 col-archive-rom">
+    <div class="archive-container text-center bg-white border rounded shadow-sm d-flex flex-column h-100 p-3">
+
+        <div class="archive-left">
+            <a href="https://romsfun.com/roms/openbor/warrior-frenzy-warriors-of-doom.html">
+                <div class="archive-cover-container my-auto position-relative">
+                    <img width="143" height="200" src="https://romsfun.com/wp-content/uploads/2024/11/Warrior-Frenzy-Warriors-Of-Doom-300x420.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="Warrior Frenzy: Warriors Of Doom" decoding="async" loading="lazy" srcset="https://romsfun.com/wp-content/uploads/2024/11/Warrior-Frenzy-Warriors-Of-Doom-300x420.jpg 300w, https://romsfun.com/wp-content/uploads/2024/11/Warrior-Frenzy-Warriors-Of-Doom.jpg 508w" sizes="(max-width: 143px) 100vw, 143px" />                                    </div>
+                <h3 class="h6 font-weight-semibold text-truncate text-body mt-3">
+                    Warrior Frenzy: Warriors Of Doom                </h3>
+            </a>
+
+                    </div>
+
+        <div class="archive-right">
+
+            <div class="genres-info my-2">
+                <a class="text-muted" href="https://romsfun.com/genre/beat-em-up/">Beat &#039;em up</a>            </div>
+
+            <div class="tech-info d-flex flex-row align-items-center justify-content-around">
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg class="svg-6" fill="grey" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M480 352h-133.5l-45.25 45.25C289.2 409.3 273.1 416 256 416s-33.16-6.656-45.25-18.75L165.5 352H32c-17.67 0-32 14.33-32 32v96c0 17.67 14.33 32 32 32h448c17.67 0 32-14.33 32-32v-96C512 366.3 497.7 352 480 352zM432 456c-13.2 0-24-10.8-24-24c0-13.2 10.8-24 24-24s24 10.8 24 24C456 445.2 445.2 456 432 456zM233.4 374.6C239.6 380.9 247.8 384 256 384s16.38-3.125 22.62-9.375l128-128c12.49-12.5 12.49-32.75 0-45.25c-12.5-12.5-32.76-12.5-45.25 0L288 274.8V32c0-17.67-14.33-32-32-32C238.3 0 224 14.33 224 32v242.8L150.6 201.4c-12.49-12.5-32.75-12.5-45.25 0c-12.49 12.5-12.49 32.75 0 45.25L233.4 374.6z"/></svg>
+                    <span>32</span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                    </svg>
+                    <span>
+                    5                </span>
+                </div>
+
+                <div class="small text-muted mb-1 mb-sm-0 d-flex flex-column align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-arrows" viewBox="0 0 16 16">
+                        <path d="M1.146 8.354a.5.5 0 0 1 0-.708l2-2a.5.5 0 1 1 .708.708L2.707 7.5h10.586l-1.147-1.146a.5.5 0 0 1 .708-.708l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L13.293 8.5H2.707l1.147 1.146a.5.5 0 0 1-.708.708l-2-2Z"/>
+                    </svg>
+                    <span>
+                    152.3 M                </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+						</div>
+					</section>
+				
+			
+			<section class="bg-white border rounded shadow-sm pt-3 px-3 mb-4">
+	
+	<form class="form-comment" method="POST" action="">
+		<h2 class="h4 mb-3">Leave a Comment</h2>
+		<input type="hidden" name="action" value="k_comment">
+		<input type="hidden" name="post_id" value="208028">
+		<div class="form-group">
+			<textarea class="form-control" rows="5" name="comment" placeholder="Comment"></textarea>
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-6 form-group">
+				<input class="form-control" type="text" name="name" placeholder="Name">
+			</div>
+			<div class="col-12 col-sm-6 form-group">
+				<input class="form-control" type="text" name="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-primary" type="submit">Send comment</button>
+		</div>
+	</form>
+</section>		</main>
+
+	</div>
+</div>
+
+		
+	</div><!-- .site-content -->
+	
+	<footer id="colophon" class="small site-footer">
+					<nav class="text-white pt-4 pb-3 footer-nav">
+				<div class="container">
+					<ul id="menu-footer-navigation" class="nav justify-content-center menu"><li id="menu-item-82224" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82224"><a href="https://romsfun.com/roms/">Roms</a></li>
+<li id="menu-item-82377" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82377"><a href="https://romsfun.com/emulators/">Emulators</a></li>
+<li id="menu-item-175969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175969"><a href="https://romsfun.com/download-limit-faq/">Download Limit FAQ</a></li>
+<li id="menu-item-175970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175970"><a href="https://romsfun.com/browse-all-roms/">Browse all ROMS</a></li>
+<li id="menu-item-175971" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175971"><a href="https://romsfun.com/requires-rom/">Requires ROM</a></li>
+<li id="menu-item-175972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175972"><a href="https://romsfun.com/contact-us/">Contact US</a></li>
+</ul>				</div>
+			</nav>
+		
+		<div class="text-white pt-4 pb-2 footer-copyright">
+			<div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+									<div class="h2 font-weight-bold text-uppercase mb-3 footer-logo">
+						<a class="text-white" href="https://romsfun.com/" rel="home">
+															<img src="https://romsfun.com/wp-content/uploads/2023/08/LOGO.png" alt="ROMSFUN.COM" title="ROMSFUN.COM"/>
+													</a>
+					</div>
+				
+									<div>
+						<p><strong><em>Copyright © 2024 ROMSFUN.COM – All rights reserved</em></strong></p>
+					</div>
+				
+									<nav class="mb-4 footer-social-networks">
+													<a href="" target="_blank" rel="nofollow">
+								<svg height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/></svg>							</a>
+													<a href="" target="_blank" rel="nofollow">
+								<svg height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>							</a>
+													<a href="" target="_blank" rel="nofollow">
+								<svg height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z"/></svg>							</a>
+											</nav>
+							</div>
+		</div>
+	</footer><!-- .site-footer -->
+</div><!-- #page -->
+<div class="modal fade" id="modal-report-broken-links" tabindex="-1" role="dialog">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Enter the text of your complaints</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fal fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<form class="form-report-broken-links" method="POST" action="">
+					<input type="hidden" name="action" value="k_report_broken_links">
+					<input type="hidden" name="post_id" value="208028">
+					<div class="form-group">
+						<textarea class="form-control" rows="5" name="message"></textarea>
+					</div>
+					<div class="form-group text-right">
+						<button class="btn btn-primary" type="submit">Send</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal fade" id="modal-result" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title">Result</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<i class="fal fa-times"></i>
+				</button>
+			</div>
+			<div class="modal-body"></div>
+		</div>
+	</div>
+</div>
+
+<style id='core-block-supports-inline-css' type='text/css'>
+/**
+ * Core styles: block-supports
+ */
+
+</style>
+<script type="text/javascript" src="https://romsfun.com/wp-content/themes/romsfun/js/bootstrap.min.js?ver=1.5" id="k-bootstrap-js"></script>
+<script type="text/javascript" id="k-site-js-extra">
+/* <![CDATA[ */
+var ajax = {"ajax_url":"https:\/\/romsfun.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://romsfun.com/wp-content/themes/romsfun/js/site.js?ver=1.5" id="k-site-js"></script>
+</body>
+</html>
