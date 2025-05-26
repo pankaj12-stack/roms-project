@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Grid, Download, Gamepad2, Tag, Search } from 'lucide-react';
+import { Grid, Download, Gamepad2, Tag, Search} from 'lucide-react';
 import GamesList from './components/GamesList';
 import GameDetails from './components/GameDetails';
 import EmulatorsList from './components/EmulatorsList';
@@ -50,18 +50,17 @@ function App() {
         </div>
       </div>
 
+
       {/* Main Content */}
-      
-        <Routes>
-          <Route path="/" element={<GamesList />} />
-          <Route path="/roms" element={<ConsolesList type="roms" />} />
-          <Route path="/emulators" element={<ConsolesList type="emulators" />} />
-          <Route path="/game/:id" element={<GameDetails />} />
-          <Route path="/emulators/:slug" element={<EmulatorsList />} />
-          <Route path="/emulator/:slug" element={<EmulatorDetails />} />
-          <Route path="/roms/:slug" element={<GamesList />} />
-        </Routes>
-     
+      <Routes>
+        <Route path="/" element={<GamesList />} />
+        <Route path="/roms" element={<ConsolesList type="roms" />} />
+        <Route path="/emulators" element={<ConsolesList type="emulators" />} />
+        <Route path="/game/:id" element={<GameDetails />} />
+        <Route path="/emulators/:slug" element={<EmulatorsList />} />
+        <Route path="/emulator/:slug" element={<EmulatorDetails />} />
+        <Route path="/roms/:slug" element={<GamesList />} />
+      </Routes>
 
       {/* Footer */}
       <footer className="bg-gray-800 border-t border-gray-700 mt-12">
@@ -86,3 +85,5 @@ function App() {
 }
 
 export default App;
+
+

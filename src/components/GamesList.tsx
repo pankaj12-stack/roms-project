@@ -13,15 +13,15 @@ function GamesList() {
   };
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="max-w-[1400px] mx-auto px-4 py-8">
       <div className="flex flex-col 2xl:flex-row gap-8">
         {/* Filters Sidebar - only shown on large screens */}
-        <div className="hidden 2xl:block w-64">
+        <div className="hidden 2xl:block w-64 flex-shrink-0">
           <FilterSidebar />
         </div>
 
         {/* Main Content */}
-        <div className="flex-1">
+        <div className="flex-grow">
           <div className="flex items-center justify-between mb-8">
             <h1 className="text-2xl font-bold">PlayStation (PSX) ROMs</h1>
             <SortDropdown 
@@ -35,11 +35,13 @@ function GamesList() {
             <FilterSidebar />
           </div>
 
-          {/* Games Grid - 2 columns on mobile, 3 on vertical/tablet, 4 on very wide screens */}
-          <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-6">
-            {games.map((game) => (
-              <GameCard key={game.id} game={game} />
-            ))}
+          {/* Games Grid */}
+          <div className="w-full">
+            <div className="grid grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-x-6 gap-y-7 sm:gap-3 md:gap-x-6 gap-y-5 sm:gap-y-6 md:gap-y-10">
+              {games.map((game) => (
+                <GameCard key={game.id} game={game} />
+              ))}
+            </div>
           </div>
 
           {/* Pagination */}
